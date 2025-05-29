@@ -79,17 +79,17 @@ const About = () => {
   const partnerships = [
     {
       name: 'Mayo Clinic',
-      logo: 'public/assets/mayo-clinic.jpg',
+      logo: '/assets/mayo-clinic.jpg',
       description: 'Research collaboration on AI-powered diagnostic tools'
     },
     {
       name: 'National Institutes of Health',
-      logo: 'public/assets/national-institutes.jpg',
+      logo: '/assets/national-institutes.jpg',
       description: 'Grant recipient for innovative healthcare technology research'
     },
     {
       name: 'World Health Organization',
-      logo: 'public/assets/who.png',
+      logo: '/assets/who.png',
       description: 'Partnership to expand healthcare access in developing regions'
     }
   ];
@@ -185,7 +185,7 @@ const About = () => {
             <Grid item xs={12} md={6}>
               <Box className="mission-image-container">
                 <img 
-                  src="public/assets/professional.jpg" 
+                  src="/assets/professional.jpg" 
                   alt="Medical professionals working with technology" 
                   className="mission-image"
                   loading="lazy"
@@ -210,7 +210,7 @@ const About = () => {
             <Grid item xs={12} md={6}>
               <Box className="technology-image-container">
                 <img 
-                  src="public/assets/ai medi.jpg" 
+                  src="/assets/ai medi.jpg" 
                   alt="AI medical technology visualization" 
                   className="technology-image"
                   loading="lazy"
